@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.Controller">
+   <children>
+      <Label fx:id="QuestionNum" layoutX="288.0" layoutY="29.0" text="Question 1 of 10">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="TheQuestion" layoutX="33.0" layoutY="126.0" prefHeight="32.0" prefWidth="684.0" text="Which keyword is used to establish inheritance in Java?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="gohome" layoutX="31.0" layoutY="347.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="25.0" prefWidth="91.0" text="Exit" />
+      <Button fx:id="choiceA" layoutX="31.0" layoutY="175.0" mnemonicParsing="false" onAction="#onAclicked" text="A" />
+      <Button fx:id="choiceB" layoutX="31.0" layoutY="215.0" mnemonicParsing="false" onAction="#onBclicked" text="B" />
+      <Button fx:id="choiceC" layoutX="31.0" layoutY="253.0" mnemonicParsing="false" onAction="#onCclicked" text="C" />
+      <Button fx:id="choiceD" layoutX="31.0" layoutY="290.0" mnemonicParsing="false" onAction="#onDclicked" text="D" />
+      <Label fx:id="opt1" layoutX="77.0" layoutY="179.0" prefHeight="17.0" prefWidth="487.0" text="super" />
+      <Label fx:id="opt2" layoutX="77.0" layoutY="219.0" prefHeight="17.0" prefWidth="487.0" text="extends" />
+      <Label fx:id="opt3" layoutX="77.0" layoutY="257.0" prefHeight="17.0" prefWidth="487.0" text="implements" />
+      <Label fx:id="opt4" layoutX="77.0" layoutY="294.0" prefHeight="17.0" prefWidth="487.0" text="this" />
+      <Label fx:id="subtext" layoutX="263.0" layoutY="80.0" text="Select the correct answer">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
